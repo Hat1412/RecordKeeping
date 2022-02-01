@@ -8,7 +8,7 @@ body{
 }
 
 .result{
-    background-color: sskyblue;
+    background-color: skyblue;
     margin-top: 50px;
     border: 5px solid black;
     text-align: center;
@@ -17,4 +17,16 @@ body{
 }
 input{
     font-size: 50px;
+}
+
+.container-3{
+    margin-top: 50px;
+    
+}
+button{
+    font-family: 'Times New Roman';
+    box-shadow: black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 50px;
 }

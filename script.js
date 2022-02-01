@@ -24,3 +24,21 @@ document.addEventListener("keydown", function (event) {
 
     }
 });
+
+function download(mime,ext) {
+    today = new Date();
+    date = `${today.getDate()}/${today.getMonth()}/${today.getFullYear()}`;
+    let fileName = `${date}.${ext}`;
+
+    let blob = new Blob([JSON.stringify(l, null, 4)], {
+        type: `${mime}`,
+        name: fileName
+    });
+
+    href = URL.createObjectURL(blob)
+    a = Object.assign(document.createElement("a"),{href,style:"display:none",download:fileName})
+    document.body.appendChild(a)
+    a.click()
+    URL.revokeObjectURL(href)
+    a.remove()
+}
