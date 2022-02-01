@@ -7,7 +7,7 @@ function capitalize(s) {
 }
 
 document.addEventListener("keydown", function (event) {
-    if (event.code === "Enter") {
+    if (event.keyCode === 13) {
         list.innerHTML = ""
         t = text.value.toLowerCase();
         if (t in l) {
