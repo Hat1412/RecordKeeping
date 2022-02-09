@@ -42,3 +42,7 @@ function download(mime,ext) {
     URL.revokeObjectURL(href)
     a.remove()
 }
+
+function add(event){
+    console.log(event)
+}
