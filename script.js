@@ -41,8 +41,7 @@ function download(mime,ext) {
     a.click()
     URL.revokeObjectURL(href)
     a.remove()
-}
 
-function add(event){
-    console.log(event)
+    alert(`${fileName} file downloaded`)
+
 }
