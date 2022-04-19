@@ -10,7 +10,7 @@ Visit Website: <a></a>
 </br>
 <pre>
 Screenshots:
-<img src="https://github.com/Hat1412/RecordKeeping/blob/main/How_to_Use.png" width = 750 height = 500/>
+<img src="https://github.com/Hat1412/RecordKeeping/blob/main/How_to_Use.png" width = 900 height = 500/>
 </pre>
 For more details:
 <pre>
