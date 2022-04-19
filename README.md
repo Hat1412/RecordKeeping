@@ -4,7 +4,7 @@
 Create a Record/Ledger online and easily !!!
 </h1>
 </br>
-<h2> Visit Website: <a> https://hat1412.github.io/RecordKeeping/ </a></h2>
+<h2> Visit Website: https://hat1412.github.io/RecordKeeping/ </h2>
 </br>
 <strong>[Hosted with Github]<strong>
 </br>
